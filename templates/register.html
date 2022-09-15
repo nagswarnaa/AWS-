@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style type="text/css">
+        body {
+            background: #0077b3;
+            position: center;
+            font-family: arial;
+            font-size: 24px;
+            margin: 25px;
+            width: 350px;
+            height: 200px;
+        }
+
+        #rescon form li {
+            margin-bottom: 15px;
+            list-style: none;
+        }
+
+        #rescon input {
+            color: rgb(222, 82, 82);
+            padding: 20px;
+            outline: none;
+            background: none;
+            border: 5px solid black;
+            font-size: 25px;
+        }
+
+        #rescon a {
+            text-decoration: none;
+        }
+
+        #rescon .ctrfrm h1 {
+            color: white;
+            font-size: 38px;
+            font-family: 'Open Sans', sans-serif;
+            margin: 18px;
+            position: absolute;
+        }
+    </style>
+    <title>Registration Page</title>
+</head>
+
+<body>
+    <section id="rescon">
+        <div class="ctrfrm">
+            <h2 style="color: aliceblue;"><a href="http://127.0.0.1:5023/login">Not a Member?</a></h2>
+            <h1>Sign Up</h1><br><br>
+            <form method="post">
+                <li><input type="text" class="text" name="username" placeholder="Username"></li>
+                <li><input type="email" class="text" name="new_email" placeholder="Email"></li>
+                <li><input type="password" name="new_password" placeholder="Password"></li>
+                <li><input type="password" name="new_rep_password" placeholder="Re-enter Password"></li>
+                <input type="submit" onclick="location.href='http://127.0.0.1:5023/register';" name="signup"
+                    value="Register">
+        </div>
+        </form>
+        </div>
+    </section>
+</body>
+
+</html>

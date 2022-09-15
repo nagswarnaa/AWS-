@@ -1,0 +1,13 @@
+{
+    "hst": "mydb.ccuigjye6pat.us-east-2.rds.amazonaws.com",
+    "db_nm": "sunny",
+    "pwd": "nagaraju",
+    "unm": "admin",
+    "aws_sthree_bck": "cloudlab01082022",
+    "aws_ak": "AKIAZM2V3RYDEO766I5G",
+    "aws_sk": "VOru3ps/s9GCesX7KLVfSmJ1b96ZaRVydYsWaEJn",
+    "aws_sns_tp": "arn:aws:sns:us-east-2:646035770886:cloudproject",
+    "aws_sthree_url": "http://cloudlab01082022.s3-website-us-east-1.amazonaws.com",
+    "dev_ip": "0.0.0.0",
+    "port": "5023"
+}
