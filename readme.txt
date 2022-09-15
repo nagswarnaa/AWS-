@@ -1,24 +1,8 @@
-CREATE DATABASE sunny;
-use sunny;
-CREATE TABLE accounts (
-id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-username VARCHAR(30) NOT NULL,
-email VARCHAR(30) NOT NULL,
-password VARCHAR(30) NOT NULL,
-active_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)
+This is a web based file sharing tool which supports  sharing with multiple users. 
 
-select * from accounts;
-use sunny;
-CREATE TABLE files_info (
-id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
-email VARCHAR(30) NOT NULL,
-name VARCHAR(30) NOT NULL,
-size VARCHAR(30) NOT NULL,
-sent_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-)
+The user logs into the website and gets a file upload screen. The user chooses the file from local storage and also enters a number of email addresses (up to 5). Once the user hits upload, the file is stored in S3. Also, the link to the file is emailed to the provided email addresses.
 
-select * from files_info;
+All the files that are uploaded will be stored in the AWS S3.
 
-
+I have used AWS EC2 to host this application and AWS S3 to store the files uploaded and AWS RDS to store the details of the file uploads and AWS SNS to notify the users about file upload status 
 
