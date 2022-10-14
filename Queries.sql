@@ -9,7 +9,7 @@ active_on TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
 )
 
 select * from accounts;
-use sunny;
+use db;
 CREATE TABLE files_info (
 id INT(6) UNSIGNED AUTO_INCREMENT PRIMARY KEY,
 email VARCHAR(30) NOT NULL,
