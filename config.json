@@ -1,6 +1,6 @@
 {
     "hst": "mydb.ccuigjye6pat.us-east-2.rds.amazonaws.com",
-    "db_nm": "sunny",
+    "db_nm": "db",
     "pwd": "nagaraju",
     "unm": "admin",
     "aws_sthree_bck": "cloudlab01082022",
