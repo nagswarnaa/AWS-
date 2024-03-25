@@ -1,8 +1,1 @@
-This is a web based file sharing tool which supports  sharing with multiple users. 
-
-The user logs into the website and gets a file upload screen. The user chooses the file from local storage and also enters a number of email addresses (up to 5). Once the user hits upload, the file is stored in S3. Also, the link to the file is emailed to the provided email addresses.
-
-All the files that are uploaded will be stored in the AWS S3.
-
-I have used AWS EC2 to host this application and AWS S3 to store the files uploaded and AWS RDS to store the details of the file uploads and AWS SNS to notify the users about file upload status 
-
+The "S3-based Multi-user File Sharing and Notification System" provides a simple and user-friendly solution for Multi-user file sharing and Notification Services. Users may easily upload files, choose up to five email recipients, and start sharing with a single click. This solution uses AWS Services, such as EC2 for hosting, S3 for file storage, RDS for upload management, SNS for email notifications, and AWS Lambda, to streamline the file sharing process. It combines reliable cloud storage with real-time warnings, making it suitable for collaborative projects and efficient information transfer.
